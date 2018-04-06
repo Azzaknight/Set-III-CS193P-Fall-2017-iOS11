@@ -117,7 +117,6 @@ class SetGameViewController: UIViewController {
         }
     }
     
-    @objc
     @IBAction func deal3() {
             game.deal3()
             updateViewFromModel()
